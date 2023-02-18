@@ -12,14 +12,14 @@
 - [Prompts Collections - 标签集合](#prompts-collections---标签集合)
   - [Table of Contents](#table-of-contents)
   - [作画小经验](#作画小经验)
-  - [`[SFW]` Cat ears + Blue eyes](#sfw-cat-ears--blue-eyes)
-  - [\[SFW\] Blue long hair + Silver dress](#sfw-blue-long-hair--silver-dress)
-  - [`[SFW]` School uniform](#sfw-school-uniform)
-  - [`[SFW]` Side ponytail + Multicolored hair](#sfw-side-ponytail--multicolored-hair)
-  - [`[SFW]` Sleeveless white](#sfw-sleeveless-white)
-  - [`[SFW]` Redgown](#sfw-redgown)
-  - [`[NSFW?]` Seductive pose](#nsfw-seductive-pose)
-  - [`[SFW]` White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
+  - [\[SFW\] Cat ears + Blue eyes](#sfw-cat-ears--blue-eyes)
+  - [[SFW\] Blue long hair + Silver dress](#sfw-blue-long-hair--silver-dress)
+  - [\[SFW\] School uniform](#sfw-school-uniform)
+  - [\[SFW\] Side ponytail + Multicolored hair](#sfw-side-ponytail--multicolored-hair)
+  - [\[SFW\] Sleeveless white](#sfw-sleeveless-white)
+  - [\[SFW\] Redgown](#sfw-redgown)
+  - [\[NSFW?\] Seductive pose](#nsfw-seductive-pose)
+  - [\[SFW\] White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
 
 ## 作画小经验
 
@@ -31,7 +31,7 @@
 - stLouisLuxuriousWheels 或 girlsFrontlineOts14 这一类**只开一个**就好，开多了有可能会导致画面混杂无章
 - ChilloutMix 似乎画作的时候大部分都为 large breasts，因此必要的时候可以加入 `large breasts` 标签以抑制
 
-## `[SFW]` Cat ears + Blue eyes
+## [SFW] Cat ears + Blue eyes
 
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
@@ -92,7 +92,7 @@ EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal q
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
 
-## `[SFW]` School uniform
+## [SFW] School uniform
 
 
 <details>
@@ -123,7 +123,7 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
 
-## `[SFW]` Side ponytail + Multicolored hair
+## [SFW] Side ponytail + Multicolored hair
 
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
@@ -153,7 +153,7 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
 
-## `[SFW]` Sleeveless white
+## [SFW] Sleeveless white
 
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
@@ -182,7 +182,7 @@ EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal q
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
 
-## `[SFW]` Redgown
+## [SFW] Redgown
 
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
@@ -242,7 +242,7 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - AddNet Enabled: True, 
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 
-## `[SFW]` White sports bra + Outdoors
+## [SFW] White sports bra + Outdoors
 
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
