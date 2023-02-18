@@ -7,19 +7,17 @@
 
 此处的标签大部分为 `SFW` 标签，但是在反向标签中有部分 SFW 没有加入反nsfw标签，另外如果出现手脚大问题建议自行加入合适的反向标签，无法完全遏制出现错误的手脚
 
-## Table of Contents
+## 合集目录
 
-- [Prompts Collections - 标签集合](#prompts-collections---标签集合)
-  - [Table of Contents](#table-of-contents)
-  - [作画小经验](#作画小经验)
-  - [\[SFW\] Cat ears + Blue eyes](#sfw-cat-ears--blue-eyes)
-  - [[SFW\] Blue long hair + Silver dress](#sfw-blue-long-hair--silver-dress)
-  - [\[SFW\] School uniform](#sfw-school-uniform)
-  - [\[SFW\] Side ponytail + Multicolored hair](#sfw-side-ponytail--multicolored-hair)
-  - [\[SFW\] Sleeveless white](#sfw-sleeveless-white)
-  - [\[SFW\] Redgown](#sfw-redgown)
-  - [\[NSFW?\] Seductive pose](#nsfw-seductive-pose)
-  - [\[SFW\] White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
+- [\[SFW\] Cat ears + Blue eyes](#sfw-cat-ears--blue-eyes)
+- [[SFW\] Blue long hair + Silver dress](#sfw-blue-long-hair--silver-dress)
+- [\[SFW\] School uniform](#sfw-school-uniform)
+- [\[SFW\] Side ponytail + Multicolored hair](#sfw-side-ponytail--multicolored-hair)
+- [\[SFW\] Sleeveless white](#sfw-sleeveless-white)
+- [\[SFW\] Redgown](#sfw-redgown)
+- [\[NSFW?\] Seductive pose](#nsfw-seductive-pose)
+- [\[SFW\] White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
+- [\[SFW\] Blue long & elbow dress](#sfw-blue-long--elbow-dress)
 
 ## 作画小经验
 
@@ -259,6 +257,34 @@ best quality, ultra high res, (photorealistic:1.4), 1girl, loose and oversized b
 
 ```
 paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, nsfw
+```
+
+### Others 其他
+
+- Steps: 25, 
+- Sampler: DPM++ 2M Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix, 
+- AddNet Enabled: True, 
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.65, AddNet Weight B 1: 0.5, 
+
+## [SFW] Blue long & elbow dress
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219847968-28c4ce66-ee33-4007-9264-611e8fbb7738.png">
+</details>
+
+### Prompts 提示标签
+
+```
+best quality, ultra high res, (photorealistic:1.4), 1girl, solo focus, ((blue long dress)), elbow dress, black thighhighs, frills, ribbons, studio background, (Kpop idol), (aegyo sal:1), (platinum blonde hair:1), ((puffy eyes)), looking at viewer, facing front, smiling, laughing
+```
+
+### Negative prompts 反向提示标签
+
+```
+paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, nsfw, nipples
 ```
 
 ### Others 其他
