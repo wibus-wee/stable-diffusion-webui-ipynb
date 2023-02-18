@@ -4,6 +4,8 @@
 
 不附带任何 Loras，需要在 **CivitAI** 中输入自行下载，记住勾选保存加入 Additional Network 选项。默认使用 ChilloutMix Checkpoint，可另外选择 SunshineMix Checkpoint
 
+目前已经支持 Paperspace 平台，但仍建议使用 Colab，因为目前免费使用的 Paperspace M4000 GPU 暂无 Xformers 支持，在生成图片时速度会慢于 Colab。
+
 ## Loras
 
 - `(x1)` 「兼容性极佳」St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
@@ -16,8 +18,8 @@
 ## Checkpoints
 
 - [三次元] ChilloutMix: https://civitai.com/models/6424/chilloutmix
-
 - [二点五次元] SunshineMix (偏向插画类): https://civitai.com/models/9291/sunshinemix
+- [二次元] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
 
 ## 试验性 Lora
 
@@ -28,10 +30,9 @@
 - 「与描述不匹配」Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
 - 「与描述不匹配，但不看描述还算可以，兼容性良好」Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
 
-
 ## 试验性 CheckPoints
 
-- [二次元] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
+- None
 
 ## 更新日志
 
@@ -39,7 +40,7 @@
 
 - 更新上游 ChilloutMix 最新版本
 - 更新 Prompts Collection
-
+- 兼容 Paperspace 平台（ Free GPU ）
 
 ### 2023.2.17
 
