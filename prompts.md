@@ -18,6 +18,7 @@
 - [\[NSFW?\] Seductive pose](#nsfw-seductive-pose)
 - [\[SFW\] White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
 - [\[SFW\] Blue long & elbow dress](#sfw-blue-long--elbow-dress)
+- [\[SFW\] Platinum blonde hair + Black skirt](#sfw-platinum-blonde-hair--black-skirt)
 
 ## 作画小经验
 
@@ -295,3 +296,32 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - Model: chilloutmix, 
 - AddNet Enabled: True, 
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.65, AddNet Weight B 1: 0.5, 
+
+## [SFW] Platinum blonde hair + Black skirt
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219868371-1278e017-f4ce-4751-b32a-f2a1daa754b3.png">
+</details>
+
+### Prompts 提示标签
+
+```
+best quality, ultra high res, (photorealistic:1.4), 1woman, sleeveless white button shirt, black skirt, black choker, cute, (Kpop idol), (aegyo sal:1), (platinum blonde hair:1), ((puffy eyes)), looking at viewer, full body, facing front, masterpiece, best quality,
+```
+
+### Negative prompts 反向提示标签
+
+```
+paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, nsfw, nipples, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+```
+
+### Others 其他
+
+- Steps: 25, 
+- Sampler: DPM++ 2M Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix, 
+- AddNet Enabled: True, 
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
+- AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
