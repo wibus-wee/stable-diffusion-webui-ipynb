@@ -8,6 +8,7 @@
 - `(x0.5)` 「兼容性优秀」Korean Doll Likeness: https://civitai.com/models/7448/korean-doll-likeness
 - `(x0.5)` 「兼容性中等」Taiwan Doll Likeness  : https://civitai.com/models/7716/taiwan-doll-likeness
 - `(x0.5)` 「兼容性中等」Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
+- `(x0.5)` 「兼容性良好」Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
 
 ## Checkpoints
 
@@ -17,21 +18,25 @@
 
 ## 试验性 Lora
 
-> 需要更多实践测试，部分 Lora 兼容性较弱
+> **Warning**: Please be aware of the legal issues
 
-- Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
-- liuyifei: https://civitai.com/models/8453/liuyifei
+- 「质量一般」liuyifei: https://civitai.com/models/8453/liuyifei
+- 「兼容性较为一般」Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
+- 「与描述不匹配」Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
+- 「与描述不匹配，但不看描述还算可以，兼容性良好」Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
+
 
 ## 试验性 CheckPoints
 
 - [二次元] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
-
 
 ## 更新日志
 
 ### 2023.2.18
 
 - 更新上游 ChilloutMix 最新版本
+- 更新 Prompts Collection
+
 
 ### 2023.2.17
 
