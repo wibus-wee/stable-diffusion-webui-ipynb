@@ -5,7 +5,9 @@
 - **SFW**: Safe For Work - 较为安全
 - **NSFW**: Not Safe For Work - **不安全 请勿在有客人的地方打开此类图片**
 
-此处的标签大部分为 `SFW` 标签，但是在反向标签中有部分 SFW 没有加入反nsfw标签，另外如果出现手脚大问题建议自行加入合适的反向标签，无法完全遏制出现错误的手脚
+此处的标签大部分为 `SFW` 标签，但是在反向标签中有部分 SFW 没有加入反nsfw标签。
+
+生成的图部分情况容易出现脸部瑕疵，出现手脚大问题需要另外再加入合适的反向标签，无法完全遏制出现错误的手脚
 
 ## 合集目录
 
@@ -19,6 +21,7 @@
 - [\[SFW\] White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
 - [\[SFW\] Blue long & elbow dress](#sfw-blue-long--elbow-dress)
 - [\[SFW\] Platinum blonde hair + Black skirt](#sfw-platinum-blonde-hair--black-skirt)
+- [\[SFW\] Black tight suit + Cyberpunk city](#sfw-black-tight-suit--cyberpunk-city)
 
 ## 作画小经验
 
@@ -308,6 +311,36 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 
 ```
 best quality, ultra high res, (photorealistic:1.4), 1woman, sleeveless white button shirt, black skirt, black choker, cute, (Kpop idol), (aegyo sal:1), (platinum blonde hair:1), ((puffy eyes)), looking at viewer, full body, facing front, masterpiece, best quality,
+```
+
+### Negative prompts 反向提示标签
+
+```
+paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, nsfw, nipples, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+```
+
+### Others 其他
+
+- Steps: 25, 
+- Sampler: DPM++ 2M Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix, 
+- AddNet Enabled: True, 
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
+- AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
+
+## [SFW] Black tight suit + Cyberpunk city
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219876219-15425a3b-1f4a-4126-9bd5-71dd73eddc84.png">
+</details>
+
+
+### Prompts 提示标签
+
+```
+(8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.37),(Kpop idol), (aegyo sal:1),cute,professional lighting, photon mapping, radiosity, physically-based rendering, cosplay, lucy \(cyberpunk\),bob cut,mechanical parts,grey eyes, black tight suit,cyberpunk city, black pants,night,neon lights,sexy,porn,smoke, looking at viewer,
 ```
 
 ### Negative prompts 反向提示标签
