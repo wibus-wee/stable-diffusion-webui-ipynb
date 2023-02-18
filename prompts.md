@@ -218,6 +218,35 @@ best quality, ultra high res, (photorealistic:1.4), 1girl, white camisole, (Kpop
 ```
 paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot
 ```
+
+### Others 其他
+
+- Steps: 25, 
+- Sampler: DPM++ 2M Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix, 
+- AddNet Enabled: True, 
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
+
+## `[SFW]` White sports bra + Outdoors
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219847066-3b94e84f-1660-4e11-91de-c457ee452dd9.png">
+</details>
+
+### Prompts 提示标签
+
+```
+best quality, ultra high res, (photorealistic:1.4), 1girl, loose and oversized black jacket, white sports bra, (green yoga pants:1), (Kpop idol), (aegyo sal:1), (light brown short ponytail:1.2), ((puffy eyes)), looking at viewer, smiling, cute, full body, streets, outdoors
+```
+
+### Negative prompts 反向提示标签
+
+```
+paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, nsfw
+```
+
 ### Others 其他
 
 - Steps: 25, 
