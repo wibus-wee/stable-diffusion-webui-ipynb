@@ -10,7 +10,7 @@
 ## 作画小经验
 
 - Lora _stLouisLuxuriousWheels_v1_ Weight = **1** - 即默认
-- Lora _koreanDollLikeness_v10_ Weight = **0.5** - 多了有可能会引起面部扭曲，不止 koreanDollLikeness，其他类似的 Lora 都建议只开 0.5
+- Lora _koreanDollLikeness_v10_ Weight = **0.5** - 多了有可能会引起面部扭曲，不止 koreanDollLikeness，其他类似的 Lora 都建议只开 0.5, 实在不行可以选择备用 **0.66**
 - Sampler 选择 **DPM++ 2M Karras** 或者 **DPM++ SDE Karras**，个人使用 DPM++ 2M Karras 居多
 - Steps 大多 **25** 步，这样的图会相对稳定
 - CFG scale 一般为 **7**，部分时刻选择 **8** 但机会较少
@@ -232,7 +232,7 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
-  <img width="350" src="https://user-images.githubusercontent.com/62133302/219847066-3b94e84f-1660-4e11-91de-c457ee452dd9.png">
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219847185-ab8638c5-7cba-4340-931d-4a8f73b2f34f.png">
 </details>
 
 ### Prompts 提示标签
@@ -254,4 +254,4 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - CFG scale: 7, 
 - Model: chilloutmix, 
 - AddNet Enabled: True, 
-- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.65, AddNet Weight B 1: 0.5, 
