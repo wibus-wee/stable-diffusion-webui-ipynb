@@ -41,6 +41,10 @@
 - 更新上游 ChilloutMix 最新版本
 - 更新 Prompts Collection
 - 兼容 Paperspace 平台（ Free GPU ）
+- 导出全部生成图片
+- 使用 `nvidia-smi` 查看 GPU 信息
+- 检查 GPU 是否支持 Xformers
+- 优化变量传递
 
 ### 2023.2.17
 
