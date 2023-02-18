@@ -15,6 +15,7 @@
 - Steps 大多 **25** 步，这样的图会相对稳定
 - CFG scale 一般为 **7**，部分时刻选择 **8** 但机会较少
 - stLouisLuxuriousWheels 或 girlsFrontlineOts14 这一类**只开一个**就好，开多了有可能会导致画面混杂无章
+- ChilloutMix 似乎画作的时候大部分都为 large breasts，因此必要的时候可以加入 `large breasts` 标签以抑制
 
 ## `[SFW]` Cat ears + Blue eyes
 
@@ -194,5 +195,34 @@ EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal q
 - CFG scale: 7, 
 - Model: chilloutmix, 
 - AddNet Enabled: True, 
-- AddNet Module 1: LoRA, AddNet Model 1: **girlsFrontlineOts14_v30(c2824b876e6b)**, AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
-- AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
+- AddNet Module 2: LoRA, AddNet Model 2: **girlsFrontlineOts14_v30(c2824b876e6b)**, AddNet Weight A 2: 1, AddNet Weight B 2: 1
+
+## `[NSFW?]` Seductive pose
+
+> 此 tag 有可能会诱发 NSFW (`large breasts` 标签)，建议使用的时候加入反nsfw类标签
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219846499-d02929d9-e332-40fb-93f0-92711460ab62.png">
+</details>
+
+### Prompts 提示标签
+
+```
+best quality, ultra high res, (photorealistic:1.4), 1girl, white camisole, (Kpop idol), (aegyo sal:1), (seductive pose),(busty), (cleavage), (curvy), large breasts,(blonde grey long hair:1.3), (((looking at viewer))), ((full body)), ((puffy eyes)), ((closeup))
+```
+
+### Negative prompts 反向提示标签
+
+```
+paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot
+```
+### Others 其他
+
+- Steps: 25, 
+- Sampler: DPM++ 2M Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix, 
+- AddNet Enabled: True, 
+- AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
