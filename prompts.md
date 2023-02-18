@@ -7,6 +7,45 @@
 
 此处的标签大部分为 `SFW` 标签，但是在反向标签中有部分 SFW 没有加入反nsfw标签，另外如果出现手脚大问题建议自行加入合适的反向标签，无法完全遏制出现错误的手脚
 
+## Table of Contents
+
+- [Prompts Collections - 标签集合](#prompts-collections---标签集合)
+  - [Table of Contents](#table-of-contents)
+  - [作画小经验](#作画小经验)
+  - [`[SFW]` Cat ears + Blue eyes](#sfw-cat-ears--blue-eyes)
+    - [Prompts 提示标签](#prompts-提示标签)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签)
+    - [Others 其他](#others-其他)
+  - [\[SFW\] Blue long hair + Silver dress](#sfw-blue-long-hair--silver-dress)
+    - [Prompts 提示标签](#prompts-提示标签-1)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-1)
+    - [Others 其他](#others-其他-1)
+  - [`[SFW]` School uniform](#sfw-school-uniform)
+    - [Prompts 提示标签](#prompts-提示标签-2)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-2)
+    - [Others 其他](#others-其他-2)
+  - [`[SFW]` Side ponytail + Multicolored hair](#sfw-side-ponytail--multicolored-hair)
+    - [Prompts 提示标签](#prompts-提示标签-3)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-3)
+    - [Others 其他](#others-其他-3)
+  - [`[SFW]` Sleeveless white](#sfw-sleeveless-white)
+    - [Prompts 提示标签](#prompts-提示标签-4)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-4)
+    - [Others 其他](#others-其他-4)
+  - [`[SFW]` Redgown](#sfw-redgown)
+    - [Prompts 提示标签](#prompts-提示标签-5)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-5)
+    - [Others 其他](#others-其他-5)
+  - [`[NSFW?]` Seductive pose](#nsfw-seductive-pose)
+    - [Prompts 提示标签](#prompts-提示标签-6)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-6)
+    - [Others 其他](#others-其他-6)
+  - [`[SFW]` White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
+    - [Prompts 提示标签](#prompts-提示标签-7)
+    - [Negative prompts 反向提示标签](#negative-prompts-反向提示标签-7)
+    - [Others 其他](#others-其他-7)
+
+
 ## 作画小经验
 
 - Lora _stLouisLuxuriousWheels_v1_ Weight = **1** - 即默认
