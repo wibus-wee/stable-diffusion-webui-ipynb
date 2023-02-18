@@ -5,7 +5,16 @@
 - **SFW**: Safe For Work - 较为安全
 - **NSFW**: Not Safe For Work - **不安全 请勿在有客人的地方打开此类图片**
 
-大部分为 `SFW` 标签
+此处的标签大部分为 `SFW` 标签，但是在反向标签中有部分 SFW 没有加入反nsfw标签，另外如果出现手脚大问题建议自行加入合适的反向标签，无法完全遏制出现错误的手脚
+
+## 作画小经验
+
+- Lora _stLouisLuxuriousWheels_v1_ Weight = **1** - 即默认
+- Lora _koreanDollLikeness_v10_ Weight = **0.5** - 多了有可能会引起面部扭曲，不止 koreanDollLikeness，其他类似的 Lora 都建议只开 0.5
+- Sampler 选择 **DPM++ 2M Karras** 或者 **DPM++ SDE Karras**，个人使用 DPM++ 2M Karras 居多
+- Steps 大多 **25** 步，这样的图会相对稳定
+- CFG scale 一般为 **7**，部分时刻选择 **8** 但机会较少
+- stLouisLuxuriousWheels 或 girlsFrontlineOts14 这一类**只开一个**就好，开多了有可能会导致画面混杂无章
 
 ## `[SFW]` Cat ears + Blue eyes
 
@@ -131,6 +140,10 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 
 ## `[SFW]` Sleeveless white
 
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219845586-353eb02f-be61-4801-b302-58ddec94e1b3.png">
+</details>
 
 ### Prompts 提示标签
 
@@ -141,7 +154,7 @@ best quality, ultra high res, (photorealistic:1.4), 1girl, sleeveless white , cu
 ### Negative prompts 反向提示标签
 
 ```
-paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, nsfw, nipples
+EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,
 ```
 
 ### Others 其他
@@ -152,4 +165,34 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - Model: chilloutmix, 
 - AddNet Enabled: True, 
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
+- AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
+
+## `[SFW]` Redgown
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/219846183-813f3051-3dd3-4fad-bcbd-c258a47b572b.png">
+</details>
+
+
+### Prompts 提示标签
+
+```
+best quality, blonde hair, long hair, ultra high res, (photorealistic:1.4), 1girl, redgown, redhat,(upper body), (Kpop idol), (aegyo sal:1), (platinum blonde hair:1), ((puffy eyes)), looking at viewer, facing front, wet skin, rain, night,
+```
+
+### Negative prompts 反向提示标签
+
+```
+EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, extra fingers, fewer fingers,watermark,
+```
+
+### Others 其他
+
+- Steps: 25, 
+- Sampler: DPM++ 2M Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix, 
+- AddNet Enabled: True, 
+- AddNet Module 1: LoRA, AddNet Model 1: **girlsFrontlineOts14_v30(c2824b876e6b)**, AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
