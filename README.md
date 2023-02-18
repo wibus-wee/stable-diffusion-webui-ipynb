@@ -11,6 +11,7 @@
 - `(x0.5)` 「兼容性中等」Taiwan Doll Likeness  : https://civitai.com/models/7716/taiwan-doll-likeness
 - `(x0.5)` 「兼容性中等」Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 「兼容性良好」Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
+- `(x1)` 「兼容性极佳」Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
 
 ## Checkpoints
 
