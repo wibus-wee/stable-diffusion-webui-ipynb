@@ -1,6 +1,8 @@
 # AUTOMATIC1111 Stable Diffusion WebUI 1.5 + ChilloutMix Checkpoint
 
-[Go To Colab](https://colab.research.google.com/drive/1J_4OVC8ReSaYkxvcy7C3YAFu9TFDeMo6?usp=sharing)
+[Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_colab/blob/main/stable_diffusion_1_5_webui_colab.ipynb) | [Prompts Collection](/prompts.md)
+
+不附带任何 Loras，需要在 **CivitAI** 中输入自行下载，记住勾选保存加入 Additional Network 选项。默认使用 ChilloutMix Checkpoint，可另外选择 SunshineMix Checkpoint
 
 ## Loras
 
@@ -45,6 +47,8 @@
 ### 2023.2.16
 
 - 由于中途可能会出现突然退出的情况，所以提供多了一个再次启动的方案
+
+---
 
 > Created by [@wibus-wee](https://github.com/wibus-wee)
 >
