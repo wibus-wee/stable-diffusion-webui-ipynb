@@ -1,5 +1,7 @@
 # AUTOMATIC1111 Stable Diffusion WebUI 1.5 + ChilloutMix Checkpoint
 
+[Go To Colab](https://colab.research.google.com/drive/1J_4OVC8ReSaYkxvcy7C3YAFu9TFDeMo6?usp=sharing)
+
 ## Loras
 
 - `(x1)` 「兼容性极佳」St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
