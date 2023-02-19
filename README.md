@@ -6,6 +6,20 @@
 
 目前已经支持 Paperspace 平台，但仍建议使用 Colab，因为目前免费使用的 Paperspace M4000 GPU 暂无 Xformers 支持，在生成图片时速度会慢于 Colab。
 
+## 训练模型安装启动与一般安装启动区别
+
+训练模型将会加载 `Dreambooth Extension for Stable-Diffusion-WebUI` 插件，该插件将会在生成图片时自动保存到本地，而不是直接在网页上显示。
+
+与一般的启动不同也就只在于这里，由于 `Dreambooth Extension for Stable-Diffusion-WebUI` 的特殊性，我需要在启动前加入一些额外的代码。
+
+```bash
+export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
+```
+
+但一般情况下我们并不需要训练模型，所以我将其放在了一个单独的区块中，如果你不需要训练模型，可以不使用它，它会拖慢启动速度 ( Git Clone, Install Requirements ), 当然，这不会影响生成图片的速度。
+
+训练模型我推荐使用 Colab，因为 Paperspace 平台的 M4000 GPU 暂无 Xformers 支持，所以在训练时速度会慢于 Colab。
+
 ## Loras
 
 - `(x1)` 「兼容性极佳」St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
