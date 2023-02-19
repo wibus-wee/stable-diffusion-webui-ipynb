@@ -37,6 +37,12 @@
 
 ## 更新日志
 
+### 2023.2.19
+
+- 修复错误识别 Quadro M4000 GPU 的问题
+- 新增**训练模型**安装方案 ( Power by [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension))
+- 优化 checkpoint 选择
+
 ### 2023.2.18
 
 - 更新上游 ChilloutMix 最新版本
