@@ -42,6 +42,7 @@
 - 修复错误识别 Quadro M4000 GPU 的问题
 - 新增**训练模型**安装方案 ( Power by [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension))
 - 优化 checkpoint 选择
+- 修复无法读取变量的问题
 
 ### 2023.2.18
 
