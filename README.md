@@ -8,6 +8,12 @@
 
 ## 训练模型安装启动与一般安装启动区别
 
+### ⚠️注意
+
+根据我目前了解的信息，其 sd_dreambooth_extension 目前似乎无法很好地工作。现在我更推荐你使用 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) Kohya's GUI，在 Paperspace / Colab 中使用的 Jupyter Notebook 正在来的路上 (Power by [P2Enjoy/kohya_ss-docker](https://github.com/P2Enjoy/kohya_ss-docker))
+
+---
+
 训练模型将会加载 `Dreambooth Extension for Stable-Diffusion-WebUI` 插件，该插件将会在生成图片时自动保存到本地，而不是直接在网页上显示。
 
 与一般的启动不同也就只在于这里，由于 `Dreambooth Extension for Stable-Diffusion-WebUI` 的特殊性，我需要在启动前加入一些额外的代码。
