@@ -57,6 +57,7 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 - 新增**训练模型**安装方案 ( Power by [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension))
 - 优化 checkpoint 选择
 - 修复无法读取变量的问题
+- 自动检查 webUI 与 训练扩展是否被安装
 
 ### 2023.2.18
 
