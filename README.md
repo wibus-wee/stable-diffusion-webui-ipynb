@@ -22,9 +22,11 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 ### ⚠️ 注意
 
-根据目前我所了解的信息，sd_dreambooth_extension 似乎无法很好地工作，训练效果并不理想。现在更推荐使用 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)，
+根据目前我所了解的信息，sd_dreambooth_extension 似乎无法很好地工作，训练效果并不理想。现在更推荐使用 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) / [Akegarasu/lora-scripts](https://github.com/Akegarasu/lora-scripts)
 
-~~新的 Jupyter Notebook 正在来的路上 (Power by [P2Enjoy/kohya_ss-docker](https://github.com/P2Enjoy/kohya_ss-docker))~~ 由于 Colab 无法使用 Docker，因此暂时无法开发 ( [googlecolab/colabtools - #299](https://github.com/googlecolab/colabtools/issues/299) )
+新的 Jupyter Notebook 正在来的路上 (Power by [Akegarasu/lora-scripts](https://github.com/Akegarasu/lora-scripts)) 
+
+- 由于 Colab 无法使用 Docker，因此大概率无法使用现存的 kohya_ss gui  ( [googlecolab/colabtools - #299](https://github.com/googlecolab/colabtools/issues/299) )
 
 ## Loras
 
