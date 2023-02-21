@@ -6,6 +6,13 @@
 
 目前已经支持 Paperspace 平台，但仍建议使用 Colab，因为目前免费使用的 Paperspace M4000 GPU 暂无 Xformers 支持，在生成图片时速度会慢于 Colab。
 
+## Roadmap
+
+- [x] Paperspace 平台支持
+- [ ] LoRA 训练 Jupyter Notebook 支持
+- [ ] 使用 aria2 优化模型下载速度
+- [ ] 国际化 (i18n)
+
 ## 训练模型安装启动与一般安装启动区别
 
 训练模型将会加载 `Dreambooth Extension for Stable-Diffusion-WebUI` 插件，该插件将会在生成图片时自动保存到本地，而不是直接在网页上显示。
