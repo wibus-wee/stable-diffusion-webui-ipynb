@@ -59,6 +59,10 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 ## 更新日志
 
+### 2023.2.21
+
+- 更好的选项选择机制
+
 ### 2023.2.19
 
 - 修复错误识别 Quadro M4000 GPU 的问题
