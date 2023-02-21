@@ -62,6 +62,7 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 ### 2023.2.21
 
 - 更好的选项选择机制
+- 细化区分 Paperspace 与 Colab 平台而并非靠单一 Free GPU 型号
 
 ### 2023.2.19
 
