@@ -1,0 +1,37 @@
+name: Pull Request Preview
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Get branch name
+        id: get_branch_name
+        run: echo ::set-output name=branch::${GITHUB_HEAD_REF}
+      - name: Get changed files
+        id: get_changed_files
+        uses: jitterbit/get-changed-files@v1
+      - name: Filter ipynb files
+        id: filter_ipynb_files
+        run: |
+          echo "::set-output name=files::$(echo '${{ steps.get_changed_files.outputs.all }}' | tr ' ' '\n' | grep -E '\.ipynb$' | tr '\n' ' ')"
+      - name: Generate preview link
+        id: generate_preview_links
+        run: |
+          echo "::set-output name=links::$(echo '${{ steps.filter_ipynb_files.outputs.files }}' | tr ' ' '\n' | sed -E "s/^(.*)$/https:\/\/colab.research.google.com\/github\/${{ github.repository }}\/blob\/${{ steps.get_branch_name.outputs.branch }}\/\1/g" | tr '\n' ' ')"
+      - name: Generate comment
+        id: generate_comment
+        run: |
+          echo "::set-output name=comment::$(echo '${{ steps.generate_preview_links.outputs.links }}' | tr ' ' '\n' | sed -E "s/^(.*)$/[Open in Colab](\1)/g" | tr '\n' ' ')"
+      - name: Comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ${{ steps.generate_comment.outputs.comment }}
+          reactions: rocket
