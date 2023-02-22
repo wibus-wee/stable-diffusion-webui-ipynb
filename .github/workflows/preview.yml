@@ -2,6 +2,8 @@ name: Pull Request Preview
 on:
   pull_request:
     branches: [main]
+  pull_request_target:
+    types: [opened]
 jobs:
   preview:
     runs-on: ubuntu-latest
@@ -29,6 +31,7 @@ jobs:
         run: |
           echo "::set-output name=comment::$(echo '${{ steps.generate_preview_links.outputs.links }}' | tr ' ' '\n' | sed -E "s/^(.*)$/[Open in Colab](\1)/g" | tr '\n' ' ')"
       - name: Comment
+        if: ${{ steps.filter_ipynb_files.outputs.files != '' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ github.event.pull_request.number }}
