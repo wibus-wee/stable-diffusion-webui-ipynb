@@ -30,11 +30,24 @@ jobs:
         id: generate_comment
         run: |
           echo "::set-output name=comment::$(echo '${{ steps.generate_preview_links.outputs.links }}' | tr ' ' '\n' | sed -E "s/^(.*)$/[Open in Colab](\1)/g" | tr '\n' ' ')"
-      - name: Comment
+      - name: Find existing comment
         if: ${{ steps.filter_ipynb_files.outputs.files != '' }}
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+      - name: Comment
+        if: ${{ steps.filter_ipynb_files.outputs.files != '' && steps.fc.outputs.comment-id == 0 }}
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             ${{ steps.generate_comment.outputs.comment }}
-          reactions: rocket
+      - name: Update comment
+        if: ${{ steps.filter_ipynb_files.outputs.files != '' && steps.fc.outputs.comment-id != 0 }}
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          body: |
+            ${{ steps.generate_comment.outputs.comment }}
