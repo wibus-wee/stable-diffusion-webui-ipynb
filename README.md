@@ -66,6 +66,10 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 ## 更新日志
 
+### 2023.2.24
+
+- Pull Request 时自动评论 Preview 链接 ( https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/pull/2 )
+
 ### 2023.2.21
 
 - 更好的选项选择机制
