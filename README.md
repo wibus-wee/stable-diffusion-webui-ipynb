@@ -13,25 +13,13 @@
 - [ ] 使用 aria2 优化模型下载速度
 - [ ] 国际化 (i18n)
 
-## WebUI NoteBook 训练模型安装启动与一般安装启动区别
-
-训练模型将会加载 `Dreambooth Extension for Stable-Diffusion-WebUI` 插件，该插件将会在生成图片时自动保存到本地，而不是直接在网页上显示。
-
-与一般的启动不同也就只在于这里，由于 `Dreambooth Extension for Stable-Diffusion-WebUI` 的特殊性，我需要在启动前加入一些额外的代码。
-
-```bash
-export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
-```
-
-但一般情况下我们并不需要训练模型，所以我将其放在了一个单独的区块中，如果你不需要训练模型，可以不使用它，它会拖慢启动速度 ( Git Clone, Install Requirements ), 当然，这不会影响生成图片的速度。
-
-训练模型我推荐使用 Colab，因为 Paperspace 平台的 M4000 GPU 暂无 Xformers 支持，所以在训练时速度会慢于 Colab。
-
 ## 关于训练 LoRA
 
-> **Warning**: Please be aware of the legal issues
+> **Warning**: 训练 LoRA 前请先注意法律风险，选取了不合适素材来训练可能会带来争议，对AI社区的发展造成不良的负面影响，请谨慎选择素材。
 
-基于 Akegarasu/lora-scripts 制作出了稍微简单的脚本，但我更推荐你使用 [ddPn08/kohya-sd-scripts-webui](https://github.com/ddPn08/kohya-sd-scripts-webui)，它提供了 WebUI，更加方便，我在 `stable_diffusion_1_5_webui.ipynb` 中也提供了对应的 SD WebUI 扩展安装方法。
+基于 Akegarasu/lora-scripts 制作出了稍微简单的脚本，但我更推荐你使用 [ddPn08/kohya-sd-scripts-webui](https://github.com/ddPn08/kohya-sd-scripts-webui)，它提供了 GUI，更加方便，我在 `stable_diffusion_1_5_webui.ipynb` 中也提供了对应的 SD WebUI 扩展安装方法。
+
+需要注意的是，`Dreambooth Extension for Stable-Diffusion-WebUI` 也是一个用于训练的扩展，一般来说它与 `kohya-sd-scripts` 只需要安装一个即可，我更推荐使用 kohya-sd-scripts
 
 ## Loras
 
@@ -51,7 +39,7 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 ## 试验性 Lora
 
-> **Warning**: Please be aware of the legal issues
+> **Warning**: 请注意法律风险。如果你不知道你在做什么，请不要使用这些模型。
 
 - 「质量一般」liuyifei: https://civitai.com/models/8453/liuyifei
 - 「兼容性较为一般」Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
@@ -69,6 +57,7 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 - Pull Request 时自动评论 Preview 链接 ( https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/pull/2 )
 - Lora Train 脚本 ( Alpha )
 - Stable-Diffusion-WebUI 搭配安装 controlnet, openpose-editor, Kohya sd-scripts 扩展
+- 移除旧有的训练模型安装方案，合并进入安装步骤 ( created in 2023.2.19 )
 
 ### 2023.2.21
 
