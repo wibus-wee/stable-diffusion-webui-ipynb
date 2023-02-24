@@ -67,6 +67,8 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 ### 2023.2.24
 
 - Pull Request 时自动评论 Preview 链接 ( https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/pull/2 )
+- Lora Train 脚本 ( Alpha )
+- Stable-Diffusion-WebUI 搭配安装 controlnet 与 openpose-editor
 
 ### 2023.2.21
 
