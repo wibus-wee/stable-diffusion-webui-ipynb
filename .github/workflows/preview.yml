@@ -31,6 +31,6 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
            ## Preview
-           [[Lora Train] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_colab/blob/${{ steps.get_branch_name.outputs.branch }}/lora_train.ipynb)
+           [[Lora Train] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/${{ steps.get_branch_name.outputs.branch }}/lora_train.ipynb)
 
-           [[Web UI] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_colab/blob/${{ steps.get_branch_name.outputs.branch }}/stable_diffusion_1_5_webui.ipynb)
+           [[Web UI] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/${{ steps.get_branch_name.outputs.branch }}/stable_diffusion_1_5_webui.ipynb)
