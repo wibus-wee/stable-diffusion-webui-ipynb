@@ -31,7 +31,7 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 > **Warning**: Please be aware of the legal issues
 
-基于 Akegarasu/lora-scripts 制作出了稍微简单的脚本，但我更推荐你使用 [ddPn08/kohya-sd-scripts-webui](https://github.com/ddPn08/kohya-sd-scripts-webui)，它提供了 WebUI，更加方便。
+基于 Akegarasu/lora-scripts 制作出了稍微简单的脚本，但我更推荐你使用 [ddPn08/kohya-sd-scripts-webui](https://github.com/ddPn08/kohya-sd-scripts-webui)，它提供了 WebUI，更加方便，我在 `stable_diffusion_1_5_webui.ipynb` 中也提供了对应的 SD WebUI 扩展安装方法。
 
 ## Loras
 
@@ -68,7 +68,7 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 - Pull Request 时自动评论 Preview 链接 ( https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/pull/2 )
 - Lora Train 脚本 ( Alpha )
-- Stable-Diffusion-WebUI 搭配安装 controlnet 与 openpose-editor
+- Stable-Diffusion-WebUI 搭配安装 controlnet, openpose-editor, Kohya sd-scripts 扩展
 
 ### 2023.2.21
 
