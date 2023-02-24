@@ -9,11 +9,11 @@
 ## Roadmap
 
 - [x] Paperspace 平台支持
-- [ ] LoRA 训练 Jupyter Notebook 支持
+- [x] LoRA 训练 Jupyter Notebook 支持
 - [ ] 使用 aria2 优化模型下载速度
 - [ ] 国际化 (i18n)
 
-## 训练模型安装启动与一般安装启动区别
+## WebUI NoteBook 训练模型安装启动与一般安装启动区别
 
 训练模型将会加载 `Dreambooth Extension for Stable-Diffusion-WebUI` 插件，该插件将会在生成图片时自动保存到本地，而不是直接在网页上显示。
 
@@ -27,13 +27,11 @@ export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 
 训练模型我推荐使用 Colab，因为 Paperspace 平台的 M4000 GPU 暂无 Xformers 支持，所以在训练时速度会慢于 Colab。
 
-### ⚠️ 注意
+## 关于训练 LoRA
 
-根据目前我所了解的信息，sd_dreambooth_extension 似乎无法很好地工作，训练效果并不理想。现在更推荐使用 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) / [Akegarasu/lora-scripts](https://github.com/Akegarasu/lora-scripts)
+> **Warning**: Please be aware of the legal issues
 
-新的 Jupyter Notebook 正在来的路上 (Power by [Akegarasu/lora-scripts](https://github.com/Akegarasu/lora-scripts)) 
-
-- 由于 Colab 无法使用 Docker，因此大概率无法使用现存的 kohya_ss gui  ( [googlecolab/colabtools - #299](https://github.com/googlecolab/colabtools/issues/299) )
+基于 Akegarasu/lora-scripts 制作出了稍微简单的脚本，但我更推荐你使用 [ddPn08/kohya-sd-scripts-webui](https://github.com/ddPn08/kohya-sd-scripts-webui)，它提供了 WebUI，更加方便。
 
 ## Loras
 
