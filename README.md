@@ -54,6 +54,7 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
 - Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
 - Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
 - Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
+- ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
 
 ## NoteBook Built-in Extension
 
@@ -74,7 +75,7 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
 ### 2023.2.25
 
 - **README.md**
-  - Update Experimental Lora List
+  - Update Experimental Lora List - Add `ChilloutMixss`
   - Optimize CHANGELOG format
   - Internationalize README
   - New "Textual Inversion" section
