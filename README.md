@@ -41,6 +41,11 @@ Some models are not compatible with the training script, and the training script
 - [2.5D] SunshineMix: https://civitai.com/models/9291/sunshinemix
 - [2D] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
 
+## Textual Inversion
+
+- Ulzzang-6500 (Korean doll aesthetic): https://civitai.com/models/8109/ulzzang-6500-korean-doll-aesthetic
+- Pure Eros Face: https://civitai.com/models/4514/pure-eros-face
+
 ## Experimental LoRA
 
 Experimental LoRA refers to models that are not yet fully tested by me, and have not yet been determined to be compatible. If you want to use these models, please judge the compatibility with other LoRA by yourself.
@@ -49,8 +54,6 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
 - Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
 - Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
 - Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
-- Ulzzang-6500 (Korean doll aesthetic): https://civitai.com/models/8109/ulzzang-6500-korean-doll-aesthetic
-- Pure Eros Face: https://civitai.com/models/4514/pure-eros-face
 
 ## Changelog
 
@@ -60,6 +63,7 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
   - Update Experimental Lora List
   - Optimize CHANGELOG format
   - Internationalize README
+  - New "Textual Inversion" section
 - **lora_train.ipynb**
   - Fix serious errors in LoRA training script
   - Remove unnecessary platform and GPU checks
