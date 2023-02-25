@@ -63,6 +63,7 @@
 - **lora_train.ipynb**
   - 修复 LoRA 训练脚本中的严重错误
   - 移除无必要的平台与 GPU 检查
+  - 新增 `export_model_dir` 选项，用于指定导出模型的目录
 
 ### 2023.2.24
 
