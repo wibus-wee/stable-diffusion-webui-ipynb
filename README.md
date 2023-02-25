@@ -4,7 +4,7 @@
 
 It does not come with any Loras, you need to type in **CivitAI** to download it yourself, and upload it to the `models/Stable-diffusion` folder. If you enable CiivitAIExtension, you can download it directly from the web UI, but remember to check Save add Additional Network option.
 
-Paperspace is now supported, but it is still recommended to use Colab, because the free Paperspace M4000 GPU currently does not support Xformers, and the speed of generating pictures will be slower than Colab.
+Paperspace is now supported, but it is still recommended to use Colab, because the free Paperspace M4000 GPU currently does not support Xformers, so you need to build it yourself, and the build process is very slow (Jupyter Notebook has been configured to automatically build, but it is still very slow).
 
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
 
@@ -84,6 +84,9 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
   - Fix serious errors in LoRA training script
   - Remove unnecessary platform and GPU checks
   - Add `export_model_dir` option to specify the directory where the model is exported
+  - Add an extra build installation xFormer option for the M4000 GPU
+- **stable_diffusion_1_5_webui.ipynb**
+  - Add an extra build installation xFormer option for the M4000 GPU
 - **prompts.md**
   - Internationalize
 
