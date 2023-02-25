@@ -83,6 +83,8 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
   - Fix serious errors in LoRA training script
   - Remove unnecessary platform and GPU checks
   - Add `export_model_dir` option to specify the directory where the model is exported
+- **prompts.md**
+  - Internationalize
 
 ### 2023.2.24
 

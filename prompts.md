@@ -5,11 +5,11 @@
 - **SFW**: Safe For Work - 较为安全
 - **NSFW**: Not Safe For Work - **不安全 请勿在有客人的地方打开此类图片**
 
-此处的标签大部分为 `SFW` 标签，但是在反向标签中有部分 SFW 没有加入反nsfw标签。
+This is a collection of prompts for generating images. Most of the prompts are `SFW`, but some of the prompts are not `SFW` in the negative prompts.
 
-生成的图部分情况容易出现脸部瑕疵，出现手脚大问题需要另外再加入合适的反向标签，无法完全遏制出现错误的手脚
+The generated images often have facial defects, and the problem of large hands and feet needs to be added with appropriate negative prompts, which cannot completely suppress the appearance of wrong hands and feet.
 
-## 合集目录
+## Table of Contents
 
 - [\[SFW\] Cat ears + Blue eyes](#sfw-cat-ears--blue-eyes)
 - [[SFW\] Blue long hair + Silver dress](#sfw-blue-long-hair--silver-dress)
@@ -23,15 +23,16 @@
 - [\[SFW\] Platinum blonde hair + Black skirt](#sfw-platinum-blonde-hair--black-skirt)
 - [\[SFW\] Black tight suit + Cyberpunk city](#sfw-black-tight-suit--cyberpunk-city)
 
-## 作画小经验
+## Tips
 
-- Lora _stLouisLuxuriousWheels_v1_ Weight = **1** - 即默认
-- Lora _koreanDollLikeness_v10_ Weight = **0.5** - 多了有可能会引起面部扭曲，不止 koreanDollLikeness，其他类似的 Lora 都建议只开 0.5, 实在不行可以选择备用 **0.66**
-- Sampler 选择 **DPM++ 2M Karras** 或者 **DPM++ SDE Karras**，个人使用 DPM++ 2M Karras 居多
-- Steps 大多 **25** 步，这样的图会相对稳定
-- CFG scale 一般为 **7**，部分时刻选择 **8** 但机会较少
-- stLouisLuxuriousWheels 或 girlsFrontlineOts14 这一类**只开一个**就好，开多了有可能会导致画面混杂无章
-- ChilloutMix 似乎画作的时候大部分都为 large breasts，因此必要的时候可以加入 `large breasts` 标签以抑制
+- Lora _stLouisLuxuriousWheels_v1_ Weight = **1** - Default
+- Lora _koreanDollLikeness_v10_ Weight = **0.5** - If you set the weight more than 1, it will cause the face to be deformed. It is recommended to set the weight to 0.5, if you want to set it to 1, you can try to set it to 0.66
+- Sampler - **DPM++ 2M Karras** or **DPM++ SDE Karras**，I use DPM++ 2M Karras more often
+- Steps **25**，and the image will be more stable
+- CFG scale - **7**
+- stLouisLuxuriousWheels or girlsFrontlineOts14 **only open one**, if you open more than one, it may cause the picture to be mixed up and unorganized
+- ChilloutMix seems to draw large breasts most of the time, so it is necessary to add the `large breasts` tag when necessary to suppress it
+- Lora _koreanDollLikeness_v10_ and Lora _koreanDollLikeness_v15_ have some different in drawing, so you can try to use them alternately, they have no conflict with each other.
 
 ## [SFW] Cat ears + Blue eyes
 
