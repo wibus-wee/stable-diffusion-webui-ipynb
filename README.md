@@ -11,8 +11,9 @@ It does not come with any Loras, you need to type in **CivitAI** to download it 
 
 - [x] Paperspace Support
 - [x] Support for training LoRA Jupyter Notebook
-- [ ] Optimize model download speed with aria2
+- [x] Optimize model download speed with aria2
 - [x] Internationalization
+- [x] Provide xformer support for Paperspace M4000 GPU
 
 Jupyter Notebook's Language is still Chinese, I want to find a way to make it internationalized, but maintaining two versions is a bit troublesome, so I will do it later.
 
@@ -73,7 +74,7 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
 
 If you are using Google Colab, there are many precompiled wheels for you to choose from. If you are using something else or want to build from source, you can use this notebook to build the library.
 
-I have written a notebook to build xformers from source. You can use it to build xformers for your own GPU. [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb)
+I have written a [notebook](./xformers_build.ipynb) to build xformers from source. You can use it to build xformers for your own GPU.
 
 ## CHANGELOG
 
