@@ -55,6 +55,20 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
 - Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
 - Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
 
+## NoteBook Built-in Extension
+
+WebUI Jupyter Notebook built-in Extension, you can install it directly from the notebook.
+
+- [deforum-art/deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
+- [AlUlkesh/stable-diffusion-webui-images-browser](https://github.com/Akegarasu/stable-diffusion-webui-images-browser)
+- [camenduru/stable-diffusion-webui-huggingface](https://github.com/camenduru/stable-diffusion-webui-huggingface)
+- [camenduru/sd-civitai-browser](https://github.com/camenduru/sd-civitai-browser)
+- [camenduru/openpose-editor](https://github.com/camenduru/openpose-editor)
+- [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
+- [kohya-ss/sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks)
+- [ddpn08/kohya-sd-scripts-webui](https://github.com/ddpn08/kohya-sd-scripts-webui) *(This extension has better install before WebUI Starting, otherwise you need to restart Application instead of just reload the UI.)*
+- [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension)
+
 ## Changelog
 
 ### 2023.2.25
@@ -64,6 +78,7 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
   - Optimize CHANGELOG format
   - Internationalize README
   - New "Textual Inversion" section
+  - Add "NoteBook Built-in Extension" section
 - **lora_train.ipynb**
   - Fix serious errors in LoRA training script
   - Remove unnecessary platform and GPU checks
