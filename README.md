@@ -4,22 +4,8 @@
 
 It does not come with any Loras, you need to type in **CivitAI** to download it yourself, and upload it to the `models/Stable-diffusion` folder. If you enable CiivitAIExtension, you can download it directly from the web UI, but remember to check Save add Additional Network option.
 
-Paperspace is now supported, but it is still recommended to use Colab, because the free Paperspace M4000 GPU currently does not support Xformers, so you need to build it yourself, and the build process is very slow (Jupyter Notebook has been configured to automatically build, but it is still very slow).
-
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
 
-## Table of Contents
-
-* [AUTOMATIC1111 Stable Diffusion WebUI 1.5 + ChilloutMix + Kohya's Scripts](#automatic1111-stable-diffusion-webui-15--chilloutmix--kohyas-scripts)
-   * [Roadmap](#roadmap)
-   * [About Training LoRA](#about-training-lora)
-   * [Loras](#loras)
-   * [Checkpoints](#checkpoints)
-   * [Textual Inversion](#textual-inversion)
-   * [Experimental LoRA](#experimental-lora)
-   * [NoteBook Built-in Extension](#notebook-built-in-extension)
-   * [Build xformers from source](#build-xformers-from-source)
-   * [CHANGELOG](#changelog)
 
 ## Roadmap
 
@@ -38,7 +24,7 @@ Some models are not compatible with the training script, and the training script
 
 > In [kohya-ss/sd-scripts train_network documentaion](https://github.com/kohya-ss/sd-scripts/blob/main/train_network_README-ja.md), it notes that the cloneofsimo's repository and the d8ahazard's Dreambooth Extension for Stable-Diffusion-WebUI are not compatible at the current time. This is because they have extended some features.
 
-## Loras
+## Recommended Loras
 
 - `(x1)` 🌟 St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
 - `(x1)` 👍 Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
@@ -48,18 +34,18 @@ Some models are not compatible with the training script, and the training script
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 👍 Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
 
-## Checkpoints
+## Recommended Checkpoints
 
 - [2.5D] ChilloutMix: https://civitai.com/models/6424/chilloutmix
 - [2.5D] SunshineMix: https://civitai.com/models/9291/sunshinemix
 - [2D] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
 
-## Textual Inversion
+## Recommended Textual Inversion
 
 - Ulzzang-6500 (Korean doll aesthetic): https://civitai.com/models/8109/ulzzang-6500-korean-doll-aesthetic
 - Pure Eros Face: https://civitai.com/models/4514/pure-eros-face
 
-## Experimental LoRA
+## Recommended Experimental LoRA
 
 Experimental LoRA refers to models that are not yet fully tested by me, and have not yet been determined to be compatible. If you want to use these models, please judge the compatibility with other LoRA by yourself.
 
@@ -99,7 +85,6 @@ I have written a notebook to build xformers from source. You can use it to build
   - Internationalize README
   - New "Textual Inversion" section
   - Add "NoteBook Built-in Extension" section
-  - Add "Table of Contents" section
   - Add "Build xformers from source" section
 - **lora_train.ipynb**
   - Fix serious errors in LoRA training script
@@ -116,6 +101,8 @@ I have written a notebook to build xformers from source. You can use it to build
   - New xformers build script
 - **workflows**
   - Add `xformers_build.ipynb` to Preview CI
+- **Release**
+  - Publish xformers precompiled wheels for M4000 GPU
 
 ### 2023.2.24
 
