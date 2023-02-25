@@ -58,8 +58,9 @@
 
 ### 2023.2.25
 
-- **文档**
+- **README.md**
   - 更新「试验性 Lora」列表
+  - 优化 CHANGELOG 格式
 - **lora_train.ipynb**
   - 修复 LoRA 训练脚本中的严重错误
   - 移除无必要的平台与 GPU 检查
@@ -67,41 +68,48 @@
 
 ### 2023.2.24
 
-- Pull Request 时自动评论 Preview 链接 ( https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/pull/2 )
-- Lora Train 脚本 ( Alpha )
-- Stable-Diffusion-WebUI 搭配安装 controlnet, openpose-editor, Kohya sd-scripts 扩展
-- 移除旧有的训练模型安装方案，合并进入安装步骤 ( created in 2023.2.19 )
+- **workflows**
+  - Pull Request 时自动评论 Preview 链接 ( https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/pull/2 )
+- **stable_diffusion_1_5_webui.ipynb**
+  - Stable-Diffusion-WebUI 搭配安装 controlnet, openpose-editor, Kohya sd-scripts 扩展
+  - 移除旧有的训练模型安装方案，合并进入安装步骤 ( created in 2023.2.19 )
+- **lora_train.ipynb**
+  - 新 Lora Train 脚本 ( Alpha )
 
 ### 2023.2.21
 
-- 更好的选项选择机制
-- 细化区分 Paperspace 与 Colab 平台而并非靠单一 Free GPU 型号
+- **stable_diffusion_1_5_webui.ipynb**
+  - 更好的选项选择机制
+  - 细化区分 Paperspace 与 Colab 平台而并非靠单一 Free GPU 型号
 
 ### 2023.2.19
 
-- 修复错误识别 Quadro M4000 GPU 的问题
-- 新增**训练模型**安装方案 ( Power by [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension))
-- 优化 checkpoint 选择
-- 修复无法读取变量的问题
-- 自动检查 webUI 与 训练扩展是否被安装
+- **stable_diffusion_1_5_webui.ipynb**
+  - 修复错误识别 Quadro M4000 GPU 的问题
+  - 新增**训练模型**安装方案 ( Power by [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension))
+  - 优化 checkpoint 选择
+  - 修复无法读取变量的问题
+  - 自动检查 webUI 与 训练扩展是否被安装
 
 ### 2023.2.18
 
-- 更新上游 ChilloutMix 最新版本
-- 更新 Prompts Collection
-- 兼容 Paperspace 平台（ Free GPU ）
-- 导出全部生成图片
-- 使用 `nvidia-smi` 查看 GPU 信息
-- 检查 GPU 是否支持 Xformers
-- 优化变量传递
+- **stable_diffusion_1_5_webui.ipynb**
+  - 更新上游 ChilloutMix 最新版本
+  - 更新 Prompts Collection
+  - 兼容 Paperspace 平台（ Free GPU ）
+  - 导出全部生成图片
+  - 使用 `nvidia-smi` 查看 GPU 信息
+  - 检查 GPU 是否支持 Xformers
+  - 优化变量传递
 
 ### 2023.2.17
 
-- 新增 SunshineMix Checkpoint 作为 2.5D 作画的第二选择
+- **stable_diffusion_1_5_webui.ipynb**
+  - 新增 SunshineMix Checkpoint 作为 2.5D 作画的第二选择
 
 ### 2023.2.16
-
-- 由于中途可能会出现突然退出的情况，所以提供多了一个再次启动的方案
+- **stable_diffusion_1_5_webui.ipynb**
+  - 由于中途可能会出现突然退出的情况，所以提供多了一个再次启动的方案
 
 ---
 
