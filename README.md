@@ -103,6 +103,7 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
   - Switch xformers source version to 0.0.16
 - **workflows**
   - Add `xformers_build.ipynb` to Preview CI
+  - Remove `pull_request_target` value to prevent the workflow from running twice
 - **Release**
   - Publish xformers precompiled wheels for M4000 GPU
 
