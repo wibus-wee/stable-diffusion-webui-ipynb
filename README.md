@@ -41,16 +41,24 @@
 
 > **Warning**: 请注意法律风险。如果你不知道你在做什么，请不要使用这些模型。
 
-- 「质量一般」liuyifei: https://civitai.com/models/8453/liuyifei
-- 「兼容性较为一般」Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
-- 「与描述不匹配」Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
-- 「与描述不匹配，但不看描述还算可以，兼容性良好」Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
+试验性 LoRA 是指测试暂时还不够完整的模型，还未判断出兼容性如何，如果你想要使用这些模型，请自行判断与其他 LoRA 的兼容性。
+
+- liuyifei: https://civitai.com/models/8453/liuyifei
+- Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
+- Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
+- Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
+- Ulzzang-6500 (Korean doll aesthetic): https://civitai.com/models/8109/ulzzang-6500-korean-doll-aesthetic
+- Pure Eros Face: https://civitai.com/models/4514/pure-eros-face
 
 ## 试验性 CheckPoints
 
 - None
 
 ## 更新日志
+
+### 2023.2.25
+
+- 更新「试验性 Lora」列表
 
 ### 2023.2.24
 
