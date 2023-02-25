@@ -8,14 +8,14 @@ Paperspace is now supported, but it is still recommended to use Colab, because t
 
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
 
-Jupyter Notebook's Language is still Chinese, I want to find a way to make it internationalized, but maintaining two versions is a bit troublesome, so I will do it later. | Jupyter Notebook 的语言仍然是中文，我想找个办法让它国际化，但是维护两个版本有点麻烦，所以以后再做吧。
-
 ## Roadmap
 
 - [x] Paperspace Support
 - [x] Support for training LoRA Jupyter Notebook
 - [ ] Optimize model download speed with aria2
 - [x] Internationalization
+
+Jupyter Notebook's Language is still Chinese, I want to find a way to make it internationalized, but maintaining two versions is a bit troublesome, so I will do it later.
 
 ## About Training LoRA
 
