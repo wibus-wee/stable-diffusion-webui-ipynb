@@ -13,7 +13,7 @@ It does not come with any Loras, you need to type in **CivitAI** to download it 
 - [x] Support for training LoRA Jupyter Notebook
 - [x] Optimize model download speed with aria2
 - [x] Internationalization
-- [x] Provide xformer support for Paperspace M4000 GPU
+- [x] Provide xformer support for `Paperspace M4000 GPU`
 
 Jupyter Notebook's Language is still Chinese, I want to find a way to make it internationalized, but maintaining two versions is a bit troublesome, so I will do it later.
 
@@ -91,11 +91,13 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
   - Fix serious errors in LoRA training script
   - Remove unnecessary platform and GPU checks
   - Add `export_model_dir` option to specify the directory where the model is exported
-  - Add an extra build installation xformers option for the M4000 GPU
-  - Use `ninja` to build xformers much faster ( Followed by Official README)
+  - ~~Add an extra build installation xformers option for the M4000 GPU~~
+  - ~~Use `ninja` to build xformers much faster ( Followed by Official README)~~
+  - Use `wsl` to install xformers in M4000 GPU Platform
 - **stable_diffusion_1_5_webui.ipynb**
-  - Add an extra build installation xFormer option for the M4000 GPU
-  - Use `ninja` to build xformers much faster ( Followed by Official README)
+  - ~~Add an extra build installation xFormer option for the M4000 GPU~~
+  - ~~Use `ninja` to build xformers much faster ( Followed by Official README)~~
+  - Use `wsl` to install xformers in M4000 GPU Platform
 - **prompts.md**
   - Internationalize
 - **xformers_build.ipynb**
