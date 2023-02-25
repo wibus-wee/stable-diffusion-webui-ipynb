@@ -99,6 +99,7 @@ I have written a notebook to build xformers from source. You can use it to build
   - Internationalize
 - **xformers_build.ipynb**
   - New xformers build script
+  - Switch xformers source version to 0.0.16
 - **workflows**
   - Add `xformers_build.ipynb` to Preview CI
 - **Release**
