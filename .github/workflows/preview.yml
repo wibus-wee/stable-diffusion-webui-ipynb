@@ -34,3 +34,5 @@ jobs:
            [[Lora Train] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/${{ steps.get_branch_name.outputs.branch }}/lora_train.ipynb)
 
            [[Web UI] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/${{ steps.get_branch_name.outputs.branch }}/stable_diffusion_1_5_webui.ipynb)
+
+           [[Xformers Build] Colab Preview](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/${{ steps.get_branch_name.outputs.branch }}/xformers_build.ipynb)

@@ -1,12 +1,25 @@
 # AUTOMATIC1111 Stable Diffusion WebUI 1.5 + ChilloutMix + Kohya's Scripts
 
-[[Web UI] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/stable_diffusion_1_5_webui.ipynb) | [[LoRA Train] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/lora_train.ipynb) | [Prompts Collection](/prompts.md)
+[[Web UI] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/stable_diffusion_1_5_webui.ipynb) | [[LoRA Train] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/lora_train.ipynb) | [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb) | [Prompts Collection](/prompts.md)
 
 It does not come with any Loras, you need to type in **CivitAI** to download it yourself, and upload it to the `models/Stable-diffusion` folder. If you enable CiivitAIExtension, you can download it directly from the web UI, but remember to check Save add Additional Network option.
 
 Paperspace is now supported, but it is still recommended to use Colab, because the free Paperspace M4000 GPU currently does not support Xformers, so you need to build it yourself, and the build process is very slow (Jupyter Notebook has been configured to automatically build, but it is still very slow).
 
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
+
+## Table of Contents
+
+* [AUTOMATIC1111 Stable Diffusion WebUI 1.5 + ChilloutMix + Kohya's Scripts](#automatic1111-stable-diffusion-webui-15--chilloutmix--kohyas-scripts)
+   * [Roadmap](#roadmap)
+   * [About Training LoRA](#about-training-lora)
+   * [Loras](#loras)
+   * [Checkpoints](#checkpoints)
+   * [Textual Inversion](#textual-inversion)
+   * [Experimental LoRA](#experimental-lora)
+   * [NoteBook Built-in Extension](#notebook-built-in-extension)
+   * [Build xformers from source](#build-xformers-from-source)
+   * [CHANGELOG](#changelog)
 
 ## Roadmap
 
@@ -70,7 +83,13 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
 - [ddpn08/kohya-sd-scripts-webui](https://github.com/ddpn08/kohya-sd-scripts-webui) *(This extension has better install before WebUI Starting, otherwise you need to restart Application instead of just reload the UI.)*
 - [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension)
 
-## Changelog
+## Build xformers from source
+
+If you are using Google Colab, there are many precompiled wheels for you to choose from. If you are using something else or want to build from source, you can use this notebook to build the library.
+
+I have written a notebook to build xformers from source. You can use it to build xformers for your own GPU. [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb)
+
+## CHANGELOG
 
 ### 2023.2.25
 
@@ -80,6 +99,8 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
   - Internationalize README
   - New "Textual Inversion" section
   - Add "NoteBook Built-in Extension" section
+  - Add "Table of Contents" section
+  - Add "Build xformers from source" section
 - **lora_train.ipynb**
   - Fix serious errors in LoRA training script
   - Remove unnecessary platform and GPU checks
@@ -91,6 +112,10 @@ WebUI Jupyter Notebook built-in Extension, you can install it directly from the 
   - Use `ninja` to build xformers much faster ( Followed by Official README)
 - **prompts.md**
   - Internationalize
+- **xformers_build.ipynb**
+  - New xformers build script
+- **workflows**
+  - Add `xformers_build.ipynb` to Preview CI
 
 ### 2023.2.24
 
