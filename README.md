@@ -27,6 +27,8 @@ Some models are not compatible with the training script, and the training script
 
 ## Recommended Loras
 
+> It seems that the LoRA related to **@kbr** has disappeared, and I don't know the reason. Currently, you can find it at https://huggingface.co/AnonPerson/ChilloutMix, but I'm not sure if I can use it.
+
 - `(x1)` 🌟 St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
 - `(x1)` 👍 Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
 - `(x0.5)` 🌟 @kbr/Korean Doll Likeness: https://civitai.com/models/7448/korean-doll-likeness
