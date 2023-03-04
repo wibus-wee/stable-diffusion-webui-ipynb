@@ -38,6 +38,7 @@ Some models are not compatible with the training script, and the training script
 - `(x0.5)` 🆒 @kbr/Taiwan Doll Likeness  : ~~https://civitai.com/models/7716/taiwan-doll-likeness~~
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 👍 Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
+- `(x0.5 - x1)` 🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
 
 ## Recommended Checkpoints
 
@@ -58,7 +59,6 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
 - Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
 - Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
 - Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
-- ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
 
 ## NoteBook Built-in Extension
 
