@@ -2,7 +2,13 @@
 
 [[Web UI] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/stable_diffusion_1_5_webui.ipynb) | [[LoRA Train] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/lora_train.ipynb) | [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb) | [Prompts Collection](/prompts.md)
 
-It does not come with any Loras, you need to type in **CivitAI** to download it yourself, and upload it to the `models/Stable-diffusion` folder. If you enable CiivitAIExtension, you can download it directly from the web UI, but remember to check Save add Additional Network option.
+Now the download script of "Recommended Loras" and "Recommended Checkpoints" has been built into the script (before startup), if you don't want to download it, you can disable them before startup.
+
+Most of the models are the latest versions from CivitAI, but some LoRA models are marked with special versions, which are versions that I personally think are better. If you don't want to use this version, you may need to download other versions yourself.
+
+If you want to download other models, you can go to the CivitAI tab in WebUI to download it yourself (if you have checked the install Civitai Browser extension option). In addition, remember to check the Save to Additional Network option.
+
+The script has already soft-linked the LoRA in Additional Network to the `models/Stable-diffusion` folder, but when using WebUI to download LoRA, you need to manually soft-link it to the `models/Stable-diffusion` folder, or restart the program to refresh the soft link.
 
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
 
@@ -14,6 +20,7 @@ It does not come with any Loras, you need to type in **CivitAI** to download it 
 - [x] Optimize model download speed with aria2
 - [x] Internationalization
 - [x] Provide xformer support for Paperspace M4000 GPU
+- [x] Soft link LoRA in Additional Network to `models/Stable-diffusion` folder
 
 Jupyter Notebook's Language is still Chinese, I want to find a way to make it internationalized, but maintaining two versions is a bit troublesome, so I will do it later.
 
@@ -33,12 +40,21 @@ Some models are not compatible with the training script, and the training script
 
 - `(x1)` 🌟 St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
 - `(x1)` 👍 Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
-- `(x0.5)` 🌟 @kbr/Korean Doll Likeness: ~~https://civitai.com/models/7448/korean-doll-likeness~~ ( Has been re-uploaded to the release by me.)
+- `(x0.5)` 🌟 @kbr/Korean Doll Likeness (v10): ~~https://civitai.com/models/7448/korean-doll-likeness~~ ( Has been re-uploaded to the release by me.)
+- `(x0.5)` 👍 @kbr/Korean Doll Likeness (v15)
 - `(x0.5)` 🆒 @kbr/Japanese Doll Likeness: ~~https://civitai.com/models/10135~~
 - `(x0.5)` 🆒 @kbr/Taiwan Doll Likeness  : ~~https://civitai.com/models/7716/taiwan-doll-likeness~~
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 👍 Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
 - `(x0.5 - x1)` 🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
+- `(x0.5)` 🆒 Cute_girl_mix4: https://civitai.com/models/14171/cutegirlmix4
+- `(x0.5)` 🆒 Fashion Girl (v4.5): https://civitai.com/models/8217/fashion-girl
+
+> 🌟 - Very good, very recommended.
+>
+> 👍 - Good, recommended.
+>
+> 🆒 - Good.
 
 ## Recommended Checkpoints
 
