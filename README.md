@@ -113,6 +113,7 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
   - Support for entering custom checkpoint id
   - Define download functions to optimize readability
   - Support LoRA specific version selection in download function
+  - Auto detect download tool
 - **README.md**
   - Update "Experimental Checkpoints" and "Experimental LoRA" section
 
