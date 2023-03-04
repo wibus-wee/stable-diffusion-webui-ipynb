@@ -51,7 +51,7 @@ Some models are not compatible with the training script, and the training script
 - Ulzzang-6500 (Korean doll aesthetic): https://civitai.com/models/8109/ulzzang-6500-korean-doll-aesthetic
 - Pure Eros Face: https://civitai.com/models/4514/pure-eros-face
 
-## Recommended Experimental LoRA
+## Experimental LoRA
 
 Experimental LoRA refers to models that are not yet fully tested by me, and have not yet been determined to be compatible. If you want to use these models, please judge the compatibility with other LoRA by yourself.
 
@@ -59,6 +59,11 @@ Experimental LoRA refers to models that are not yet fully tested by me, and have
 - Lisa Blackpink: https://civitai.com/models/8605/lisa-blackpink
 - Jisoo Blackpink: https://civitai.com/models/8311/jisoo-blackpink
 - Rosè Blackpink: https://civitai.com/models/8600/rose-blackpink
+- MoXin: https://civitai.com/models/12597/moxin
+
+## Experimental Checkpoints
+
+- GuoFeng3: https://civitai.com/models/10415/guofeng3
 
 ## NoteBook Built-in Extension
 
@@ -87,6 +92,8 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 - **stable_diffusion_1_5_webui.ipynb**
   - Download `koreanDollLikeness` model with GitHub Release API
   - Soft link LoRA models so that they can be used in prompts and additional networks. (Only operate before startup, the LoRA installed after startup may not be used in prompts. You need to restart the application to re-link the models installed in other networks.)
+- **README.md**
+  - Update "Experimental Checkpoints" and "Experimental LoRA" section
 
 ### 2023.2.25
 
