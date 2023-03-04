@@ -92,6 +92,10 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 - **stable_diffusion_1_5_webui.ipynb**
   - Download `koreanDollLikeness` model with GitHub Release API
   - Soft link LoRA models so that they can be used in prompts and additional networks. (Only operate before startup, the LoRA installed after startup may not be used in prompts. You need to restart the application to re-link the models installed in other networks.)
+  - Provides the option to install LoRA before startup
+  - Get the latest checkpoint download address from the CivitAI API
+  - Support for entering custom checkpoint id
+  - Define download functions to optimize readability
 - **README.md**
   - Update "Experimental Checkpoints" and "Experimental LoRA" section
 
