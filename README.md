@@ -2,13 +2,13 @@
 
 [[Web UI] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/stable_diffusion_1_5_webui.ipynb) | [[LoRA Train] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/lora_train.ipynb) | [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb) | [Prompts Collection](/prompts.md)
 
-Now the download script of "Recommended Loras" and "Recommended Checkpoints" has been built into the script (before startup), if you don't want to download it, you can disable them before startup.
+Now the download script of ["Recommended Loras"](#recommended-loras) and ["Recommended Checkpoints"](#recommended-checkpoints) has been built into the script (before startup), if you don't want to download it, you can disable them before startup.
 
-Most of the models are the latest versions from CivitAI, but some LoRA models are marked with special versions, which are versions that I personally think are better. If you don't want to use this version, you may need to download other versions yourself.
+Most of the models are the latest versions from [CivitAI]("https://civitai.com"), but some LoRA models are marked with special versions, which are versions that I personally think are better. If you don't want to use this version, you may need to download other versions yourself (see below).
 
 If you want to download other models, you can go to the CivitAI tab in WebUI to download it yourself (if you have checked the install Civitai Browser extension option). In addition, remember to check the Save to Additional Network option.
 
-The script has already soft-linked the LoRA in Additional Network to the `models/Stable-diffusion` folder, but when using WebUI to download LoRA, you need to manually soft-link it to the `models/Stable-diffusion` folder, or restart the program to refresh the soft link.
+The script has already soft-linked the LoRA in Additional Network to the `models/Lora` folder, but when using WebUI to download LoRA, you need to manually soft-link it to the `models/Stable-diffusion` folder, or restart the program to refresh the soft link.
 
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
 
