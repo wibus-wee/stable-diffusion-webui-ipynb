@@ -27,13 +27,15 @@ Some models are not compatible with the training script, and the training script
 
 ## Recommended Loras
 
-> It seems that the LoRA related to **@kbr** has disappeared, and I don't know the reason. Currently, you can find it at https://huggingface.co/AnonPerson/ChilloutMix, but I'm not sure if I can use it.
+> It seems that the LoRA related to **@kbr** has disappeared, and I don't know the reason. Currently, you can find it at https://github.com/wibus-wee/stable_diffusion_chilloutmix_ipynb/releases/tag/koreanDollLikeness, I have uploaded it to the release.
+>
+> In addition, I have updated the startup script so that if you check install `koreanDollLikeness`, it will be installed automatically.
 
 - `(x1)` 🌟 St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
 - `(x1)` 👍 Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
-- `(x0.5)` 🌟 @kbr/Korean Doll Likeness: https://civitai.com/models/7448/korean-doll-likeness
-- `(x0.5)` 🆒 @kbr/Japanese Doll Likeness: https://civitai.com/models/10135
-- `(x0.5)` 🆒 @kbr/Taiwan Doll Likeness  : https://civitai.com/models/7716/taiwan-doll-likeness
+- `(x0.5)` 🌟 @kbr/Korean Doll Likeness: ~~https://civitai.com/models/7448/korean-doll-likeness~~ ( Has been re-uploaded to the release by me.)
+- `(x0.5)` 🆒 @kbr/Japanese Doll Likeness: ~~https://civitai.com/models/10135~~
+- `(x0.5)` 🆒 @kbr/Taiwan Doll Likeness  : ~~https://civitai.com/models/7716/taiwan-doll-likeness~~
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 👍 Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
 
@@ -79,6 +81,11 @@ If you are using Google Colab, there are many precompiled wheels for you to choo
 I have written a [notebook](./xformers_build.ipynb) to build xformers from source. You can use it to build xformers for your own GPU.
 
 ## CHANGELOG
+
+### 2023.3.4
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Download `koreanDollLikeness` model with GitHub Release API
 
 ### 2023.2.25
 
