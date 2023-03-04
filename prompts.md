@@ -22,6 +22,7 @@ The generated images often have facial defects, and the problem of large hands a
 - [\[SFW\] Blue long & elbow dress](#sfw-blue-long--elbow-dress)
 - [\[SFW\] Platinum blonde hair + Black skirt](#sfw-platinum-blonde-hair--black-skirt)
 - [\[SFW\] Black tight suit + Cyberpunk city](#sfw-black-tight-suit--cyberpunk-city)
+- [\[SFW\] Basic Tiara](#sfw-basic-tiara)
 
 ## Tips
 
@@ -359,3 +360,29 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 - AddNet Enabled: True, 
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: stLouisLuxuriousWheels_v1(034b97419349), AddNet Weight A 2: 1, AddNet Weight B 2: 1
+
+## [SFW] Basic Tiara
+
+<details>
+  <summary> <h3>Demo 案例</h3> </summary>
+  <img width="350" src="https://user-images.githubusercontent.com/62133302/222914688-8171da0c-cb57-4547-a5f4-1811cfb0f10e.png">
+</details>
+
+### Prompts 提示标签
+
+```
+best quality, highres,(RAW photo:1.2), (photorealistic:1.4),(masterpiece:1.4),1girl, long hair, black hair, <lora:koreanDollLikeness_v15:0.7>,medium breasts, (Kpop idol), (smile:1.1), half body, intricate chocker, ((Tiara on head)), natural lighting
+```
+
+### Negative prompts 反向提示标签
+
+```
+paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot,distorted finger, amputation, missing hands and fingers, extra hand and finger, obese, doubled face, double hands, (ugly face:1.2), out of frame, (crooked finger:1.3),extra legs, mutated hands, fused fingers, (too many fingers),NG_DeepNegative_V1_75T, nsfw
+```
+
+### Others 其他
+
+- Steps: 28, 
+- Sampler: DPM++ SDE Karras, 
+- CFG scale: 7, 
+- Model: chilloutmix

@@ -116,6 +116,8 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
   - Auto detect download tool
 - **README.md**
   - Update "Experimental Checkpoints" and "Experimental LoRA" section
+- **prompts.md**
+  - Add a new prompt `Basic Tiara`
 
 ### 2023.2.25
 
