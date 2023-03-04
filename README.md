@@ -4,7 +4,7 @@
 
 Now the download script of ["Recommended Loras"](#recommended-loras) and ["Recommended Checkpoints"](#recommended-checkpoints) has been built into the script (before startup), if you don't want to download it, you can disable them before startup.
 
-Most of the models are the latest versions from [CivitAI]("https://civitai.com"), but some LoRA models are marked with special versions, which are versions that I personally think are better. If you don't want to use this version, you may need to download other versions yourself (see below).
+Most of the models are the latest versions from [CivitAI](https://civitai.com), but some LoRA models are marked with special versions, which are versions that I personally think are better. If you don't want to use this version, you may need to download other versions yourself (see below).
 
 If you want to download other models, you can go to the CivitAI tab in WebUI to download it yourself (if you have checked the install Civitai Browser extension option). In addition, remember to check the Save to Additional Network option.
 
