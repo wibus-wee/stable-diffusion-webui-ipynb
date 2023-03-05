@@ -108,6 +108,7 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 - **stable_diffusion_1_5_webui.ipynb**
   - Custom checkpoint version
   - Missing return value
+  - API argument support
 
 ### 2023.3.4
 
