@@ -103,6 +103,12 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.3.5
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Custom checkpoint version
+  - Missing return value
+
 ### 2023.3.4
 
 - **stable_diffusion_1_5_webui.ipynb**
