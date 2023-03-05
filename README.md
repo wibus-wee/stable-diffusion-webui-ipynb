@@ -110,6 +110,8 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
   - Missing return value
   - API argument support
   - Fixed xformer not starting on M4000 GPU platforms with xformer installed
+  - Support download multiple checkpoints at the same time
+  - Support download checkpoints from other URLs
 
 ### 2023.3.4
 
