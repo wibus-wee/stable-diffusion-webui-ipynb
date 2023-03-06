@@ -61,6 +61,7 @@ Some models are not compatible with the training script, and the training script
 - [2.5D] ChilloutMix: https://civitai.com/models/6424/chilloutmix
 - [2.5D] SunshineMix: https://civitai.com/models/9291/sunshinemix
 - [2D] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
+- [2.5D] Chilled_re_generic_v2: https://api.moeclub.org/GoogleDrive/1KNU_giorZYOflT3gdwAPtIPh6sNE2oNR (Click this link to download, merged by [wibus-wee](https://github.com/wibus-wee), recipe by [@sazyou_roukaku](https://twitter.com/sazyou_roukaku), recipe [See here](./chilled_re-generic.md) )
 
 ## Recommended Textual Inversion
 
@@ -102,6 +103,11 @@ If you are using Google Colab, there are many precompiled wheels for you to choo
 I have written a [notebook](./xformers_build.ipynb) to build xformers from source. You can use it to build xformers for your own GPU.
 
 ## CHANGELOG
+
+### 2023.3.4
+
+- **README**
+  - Add Chilled_re_generic_v2 download link
 
 ### 2023.3.5
 
