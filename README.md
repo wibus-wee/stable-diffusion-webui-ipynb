@@ -108,6 +108,8 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 - **README**
   - Add Chilled_re_generic_v2 download link
+- **stable_diffusion_1_5_webui.ipynb**
+  - Support custom checkpoint name ( From custom url )
 
 ### 2023.3.5
 
