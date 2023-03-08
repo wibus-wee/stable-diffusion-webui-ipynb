@@ -42,11 +42,11 @@ Some models are not compatible with the training script, and the training script
 - `(x1)` 👍 Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
 - `(x0.5)` 🌟 @kbr/Korean Doll Likeness (v10): ~~https://civitai.com/models/7448/korean-doll-likeness~~ ( Has been re-uploaded to the release by me.)
 - `(x0.5)` 👍 @kbr/Korean Doll Likeness (v15)
-- `(x0.5)` 🆒 @kbr/Japanese Doll Likeness: ~~https://civitai.com/models/10135~~
-- `(x0.5)` 🆒 @kbr/Taiwan Doll Likeness  : ~~https://civitai.com/models/7716/taiwan-doll-likeness~~
+- `(x0.5)` 🆒 ~~@kbr/Japanese Doll Likeness: https://civitai.com/models/10135~~
+- `(x0.5)` 🆒 ~~@kbr/Taiwan Doll Likeness  : https://civitai.com/models/7716/taiwan-doll-likeness~~
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 👍 Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
-- `(x0.5 - x1)` 🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
+- `(x0.5 - x1)` ~~🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss~~ (This model is disappeared.)
 - `(x0.5)` 🆒 Cute_girl_mix4: https://civitai.com/models/14171/cutegirlmix4
 - `(x0.5)` 🆒 Fashion Girl (v4.5): https://civitai.com/models/8217/fashion-girl
 
@@ -61,7 +61,7 @@ Some models are not compatible with the training script, and the training script
 - [2.5D] ChilloutMix: https://civitai.com/models/6424/chilloutmix
 - [2.5D] SunshineMix: https://civitai.com/models/9291/sunshinemix
 - [2D] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
-- [2.5D] Chilled_re_generic_v2: https://api.moeclub.org/GoogleDrive/1KNU_giorZYOflT3gdwAPtIPh6sNE2oNR (Click this link to download, merged by [wibus-wee](https://github.com/wibus-wee), recipe by [@sazyou_roukaku](https://twitter.com/sazyou_roukaku), recipe [See here](./chilled_re-generic.md) )
+- [2.5D] Chilled_re_generic_v2: https://drive.google.com/file/d/1KNU_giorZYOflT3gdwAPtIPh6sNE2oNR/view?usp=sharing (merged by [wibus-wee](https://github.com/wibus-wee), recipe by [@sazyou_roukaku](https://twitter.com/sazyou_roukaku), recipe [See here](./chilled_re-generic.md) )
 
 ## Recommended Textual Inversion
 
@@ -103,6 +103,15 @@ If you are using Google Colab, there are many precompiled wheels for you to choo
 I have written a [notebook](./xformers_build.ipynb) to build xformers from source. You can use it to build xformers for your own GPU.
 
 ## CHANGELOG
+
+### 2023.3.8
+
+- **README**
+  - Modify Chilled_re_generic_v2 link to Google Drive Share Link
+  - Set `Chilloutmixss` model to deprecated (This model is disappeared.)
+- **stable_diffusion_1_5_webui.ipynb**
+  - Remove `Chilloutmixss` model option
+  - Use `try-except` to catch `KeyError` when downloading models.
 
 ### 2023.3.4
 
