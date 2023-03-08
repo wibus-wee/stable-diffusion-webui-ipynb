@@ -112,6 +112,7 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 - **stable_diffusion_1_5_webui.ipynb**
   - Remove `Chilloutmixss` model option
   - Use `try-except` to catch `KeyError` when downloading models.
+  - Support download `styles.csv` with url.
 
 ### 2023.3.4
 
