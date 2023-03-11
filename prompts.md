@@ -218,8 +218,6 @@ EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal q
 
 ## [NSFW] Seductive pose
 
-> 此 tag 有可能会诱发 NSFW (`large breasts` 标签)，建议使用的时候加入反nsfw类标签
-
 <details>
   <summary> <h3>Demo 案例</h3> </summary>
   <img width="350" src="https://user-images.githubusercontent.com/62133302/219846499-d02929d9-e332-40fb-93f0-92711460ab62.png">
