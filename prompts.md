@@ -17,7 +17,7 @@ The generated images often have facial defects, and the problem of large hands a
 - [\[SFW\] Side ponytail + Multicolored hair](#sfw-side-ponytail--multicolored-hair)
 - [\[SFW\] Sleeveless white](#sfw-sleeveless-white)
 - [\[SFW\] Redgown](#sfw-redgown)
-- [\[NSFW?\] Seductive pose](#nsfw-seductive-pose)
+- [\[NSFW\] Seductive pose](#nsfw-seductive-pose)
 - [\[SFW\] White sports bra + Outdoors](#sfw-white-sports-bra--outdoors)
 - [\[SFW\] Blue long & elbow dress](#sfw-blue-long--elbow-dress)
 - [\[SFW\] Platinum blonde hair + Black skirt](#sfw-platinum-blonde-hair--black-skirt)
@@ -216,7 +216,7 @@ EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal q
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: **girlsFrontlineOts14_v30(c2824b876e6b)**, AddNet Weight A 2: 1, AddNet Weight B 2: 1
 
-## `[NSFW?]` Seductive pose
+## `[NSFW]` Seductive pose
 
 > 此 tag 有可能会诱发 NSFW (`large breasts` 标签)，建议使用的时候加入反nsfw类标签
 
