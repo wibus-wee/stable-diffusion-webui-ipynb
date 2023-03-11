@@ -216,7 +216,7 @@ EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal q
 - AddNet Module 1: LoRA, AddNet Model 1: koreanDollLikeness_v10(e2e472c06607), AddNet Weight A 1: 0.5, AddNet Weight B 1: 0.5, 
 - AddNet Module 2: LoRA, AddNet Model 2: **girlsFrontlineOts14_v30(c2824b876e6b)**, AddNet Weight A 2: 1, AddNet Weight B 2: 1
 
-## `[NSFW]` Seductive pose
+## [NSFW] Seductive pose
 
 > 此 tag 有可能会诱发 NSFW (`large breasts` 标签)，建议使用的时候加入反nsfw类标签
 
