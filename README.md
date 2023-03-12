@@ -108,6 +108,8 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 - **lora_train.ipynb**
   - Language Internationalization
+- **stable_diffusion_1_5_webui.ipynb**
+  - Support [Cloudfared](https://github.com/cloudflare/cloudflared) as a Tunnel Client
 
 ### 2023.3.8
 
