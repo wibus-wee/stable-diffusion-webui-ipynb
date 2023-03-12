@@ -104,6 +104,11 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.3.18
+
+- **lora_train.ipynb**
+  - Language Internationalization
+
 ### 2023.3.8
 
 - **README**
