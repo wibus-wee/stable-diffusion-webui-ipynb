@@ -46,7 +46,7 @@ Some models are not compatible with the training script, and the training script
 - `(x0.5)` 🆒 ~~@kbr/Taiwan Doll Likeness  : https://civitai.com/models/7716/taiwan-doll-likeness~~
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
 - `(x0.5)` 👍 Gakki | Aragaki Yui | 新垣結衣: https://civitai.com/models/8416/gakki-or-aragaki-yui-or
-- `(x0.5 - x1)` ~~🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss~~ (This model is disappeared.)
+- `(x0.5 - x1)` 🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
 - `(x0.5)` 🆒 Cute_girl_mix4: https://civitai.com/models/14171/cutegirlmix4
 - `(x0.5)` 🆒 Fashion Girl (v4.5): https://civitai.com/models/8217/fashion-girl
 
