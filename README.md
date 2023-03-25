@@ -104,6 +104,12 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.3.25
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Use the wrong list to cause the Textual Inversion download to fail
+  - Only soft link the model once, remove the `!rm -rf stable_diffusion/model/Lora` step to avoid accidentally deleting other models
+
 ### 2023.3.18
 
 - **lora_train.ipynb**
