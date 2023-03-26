@@ -15,7 +15,7 @@ The script has already soft-linked the LoRA in Additional Network to the `models
 
 ## Roadmap
 
-- [x] Paperspace Support
+- [x] ~~Paperspace Support~~ (Not considered in the future)
 - [x] Support for training LoRA Jupyter Notebook
 - [x] Optimize model download speed with aria2
 - [x] Internationalization
