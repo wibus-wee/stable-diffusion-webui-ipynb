@@ -62,6 +62,7 @@ Some models are not compatible with the training script, and the training script
 - [2.5D] SunshineMix: https://civitai.com/models/9291/sunshinemix
 - [2D] Grapefruit (hentai model): https://civitai.com/models/2583/grapefruit-hentai-model
 - [2.5D] Chilled_re_generic_v2: https://drive.google.com/file/d/1KNU_giorZYOflT3gdwAPtIPh6sNE2oNR/view?usp=sharing (merged by [wibus-wee](https://github.com/wibus-wee), recipe by [@sazyou_roukaku](https://twitter.com/sazyou_roukaku), recipe [See here](./chilled_re-generic.md) )
+- [2D] Anything v4.5: https://huggingface.co/Airic/Anything-V4.5
 
 ## Recommended Textual Inversion
 
