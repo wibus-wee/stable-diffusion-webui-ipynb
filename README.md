@@ -105,6 +105,11 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.4.2
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Support input custom lora download url
+
 ### 2023.3.25
 
 - **stable_diffusion_1_5_webui.ipynb**
