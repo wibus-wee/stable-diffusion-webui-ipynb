@@ -40,8 +40,7 @@ Some models are not compatible with the training script, and the training script
 
 - `(x1)` 🌟 St. Louis (Luxurious Wheels) (Azur Lane): https://civitai.com/models/6669/st-louis-luxurious-wheels-azur-lane
 - `(x1)` 👍 Girls' Frontline-OTs-14"lightning": https://civitai.com/models/6525/girls-frontline-ots-14lightning
-- `(x0.5)` 🌟 @kbr/Korean Doll Likeness (v10): ~~https://civitai.com/models/7448/korean-doll-likeness~~ ( Has been re-uploaded to the release by me.)
-- `(x0.5)` 👍 @kbr/Korean Doll Likeness (v15)
+- `(x0.5)` 🌟 @kbr/Korean Doll Likeness: ~~https://civitai.com/models/7448/korean-doll-likeness~~ ( Has been re-uploaded to the release by me.)
 - `(x0.5)` 🆒 ~~@kbr/Japanese Doll Likeness: https://civitai.com/models/10135~~
 - `(x0.5)` 🆒 ~~@kbr/Taiwan Doll Likeness  : https://civitai.com/models/7716/taiwan-doll-likeness~~
 - `(x0.5)` 🆒 Yae Miko | Realistic Genshin (Mixed): https://civitai.com/models/8484/yae-miko-or-realistic-genshin
@@ -49,7 +48,8 @@ Some models are not compatible with the training script, and the training script
 - `(x0.5 - x1)` 🆒 ChilloutMixss: https://civitai.com/models/10850/chilloutmixss
 - `(x0.5)` 🆒 Cute_girl_mix4: https://civitai.com/models/14171/cutegirlmix4
 - `(x0.5)` 🆒 Fashion Girl (v4.5): https://civitai.com/models/8217/fashion-girl
-
+- `(x0.5)` 🆒 RandomCoser: https://huggingface.co/AzureKn1ght/RandomCoser (backup?)
+- 
 > 🌟 - Very good, very recommended.
 >
 > 👍 - Good, recommended.
@@ -104,6 +104,11 @@ If you are using Google Colab, there are many precompiled wheels for you to choo
 I have written a [notebook](./xformers_build.ipynb) to build xformers from source. You can use it to build xformers for your own GPU.
 
 ## CHANGELOG
+
+### 2023.4.2
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Support input custom lora download url
 
 ### 2023.3.25
 
