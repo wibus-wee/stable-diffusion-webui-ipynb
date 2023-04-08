@@ -8,8 +8,6 @@ Most of the models are the latest versions from [CivitAI](https://civitai.com), 
 
 If you want to download other models, you can go to the CivitAI tab in WebUI to download it yourself (if you have checked the install Civitai Browser extension option). In addition, remember to check the Save to Additional Network option.
 
-The script has already soft-linked the LoRA in Additional Network to the `models/Lora` folder, but when using WebUI to download LoRA, you need to manually soft-link it to the `models/Stable-diffusion` folder, or restart the program to refresh the soft link.
-
 > **Warning**: Please note that there may be legal risks before painting. Please note whether your painting may cause controversy and negative impact on the development of the AI community. Please use it with caution.
 
 
@@ -20,7 +18,7 @@ The script has already soft-linked the LoRA in Additional Network to the `models
 - [x] Optimize model download speed with aria2
 - [x] Internationalization
 - [x] Provide xformer support for Paperspace M4000 GPU
-- [x] Soft link LoRA in Additional Network to `models/Stable-diffusion` folder
+- [x] Soft link LoRA in `models/Stable-diffusion` folder to Additional Network folder
 
 Jupyter Notebook's Language is still Chinese, I want to find a way to make it internationalized, but maintaining two versions is a bit troublesome, so I will do it later.
 
@@ -104,6 +102,12 @@ If you are using Google Colab, there are many precompiled wheels for you to choo
 I have written a [notebook](./xformers_build.ipynb) to build xformers from source. You can use it to build xformers for your own GPU.
 
 ## CHANGELOG
+
+### 2023.4.8
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Download Lora into official model directory instead of the plugin directory
+  - Soft link the lora models to the Additional Network plugin directory
 
 ### 2023.4.2
 
