@@ -108,6 +108,7 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 - **stable_diffusion_1_5_webui.ipynb**
   - Change `KoreanDollLikeness` download url to @kanbara's huggingface model
   - Add `KoreanDollLikeness v2` model
+  - Fix PyTorch and torchvision version conflict problem [#17](https://github.com/wibus-wee/stable-diffusion-webui-ipynb/issues/17)
 
 ### 2023.4.8
 
