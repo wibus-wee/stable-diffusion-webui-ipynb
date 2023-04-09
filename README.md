@@ -103,6 +103,12 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.4.9
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Change `KoreanDollLikeness` download url to @kanbara's huggingface model
+  - Add `KoreanDollLikeness v2` model
+
 ### 2023.4.8
 
 - **stable_diffusion_1_5_webui.ipynb**
