@@ -103,6 +103,13 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.4.10
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Upgrade webui version
+  - Upgrade some extensions' version
+  - Change some extensions git url to original repo
+
 ### 2023.4.9
 
 - **stable_diffusion_1_5_webui.ipynb**
