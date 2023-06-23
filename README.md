@@ -103,6 +103,11 @@ I have written a [notebook](./xformers_build.ipynb) to build xformers from sourc
 
 ## CHANGELOG
 
+### 2023.6.23
+
+- **stable_diffusion_1_5_webui.ipynb**
+  - Bypass colab detection [#20](https://github.com/wibus-wee/stable-diffusion-webui-ipynb/pull/20)
+
 ### 2023.4.10
 
 - **stable_diffusion_1_5_webui.ipynb**
