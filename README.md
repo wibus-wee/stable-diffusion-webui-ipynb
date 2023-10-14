@@ -1,6 +1,16 @@
-# AUTOMATIC1111 Stable Diffusion WebUI 1.5 + Kohya's Scripts
+# ~~AUTOMATIC1111 Stable Diffusion WebUI 1.5 + Kohya's Scripts~~ (DEPRECIATED)
 
-[[Web UI] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/stable_diffusion_1_5_webui.ipynb) | [[LoRA Train] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/lora_train.ipynb) | [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb) | [Prompts Collection](/prompts.md)
+## DEPRECIATED
+
+> **Due to Google's increasing policy of blocking Stable Diffusion and my own lack of time to continue making this project available on Google Colab, the project will be discontinued for maintenance.**
+>
+> **However, you can also view the recommendations for some models in this repository and the collection of Prompts I maintained earlier.**
+
+_**How grateful I am to Google Colab for initially granting me the pleasure of experiencing the artistry of AI.**_
+
+## README
+
+~~[[Web UI] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/stable_diffusion_1_5_webui.ipynb) | [[LoRA Train] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/lora_train.ipynb)~~ | [[Xformers Build] Go To Colab](https://colab.research.google.com/github/wibus-wee/stable_diffusion_chilloutmix_ipynb/blob/main/xformers_build.ipynb) | [Prompts Collection](/prompts.md)
 
 Now the download script of ["Recommended Loras"](#recommended-loras) and ["Recommended Checkpoints"](#recommended-checkpoints) has been built into the script (before startup), if you don't want to download it, you can disable them before startup.
 
